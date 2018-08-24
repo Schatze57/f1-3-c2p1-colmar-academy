@@ -90,6 +90,7 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
+
 li {
   display: inline;
   padding-left: 1rem;
@@ -101,7 +102,7 @@ a {
 .mobile-menu {
   display: none;
 }
-/*Dropdown menu styling*/
+
 li a, .dropbtn {
     display: inline-block;
     color: white;
@@ -139,7 +140,6 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-/*End of Dropdown menu styling*/
 
 @media only screen and (max-width: 1024px) {
   .site-width {
